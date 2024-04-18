@@ -1,0 +1,161 @@
+@font-face {
+    font-family: roboto;
+    src: url(/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Bold.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Tomato: hsl(4, 100%, 67%)
+
+--Grey: hsl(234, 29%, 20%)
+-- Grey: hsl(235, 18%, 26%)
+-- Grey: hsl(231, 7%, 60%)
+-- White: hsl(0, 0%, 100%)
+}
+body{
+    background-color: hsl(235, 18%, 26%);
+    color: hsl(231, 7%, 60%);
+   
+    
+}
+body p{
+    font-size: 16px;
+}
+img{
+    cursor: pointer;
+}
+.card{
+    margin-top: 20px;
+    max-width: 750px;
+    margin-inline: auto;
+    background-color: white;
+    border-radius: 30px;
+    
+}
+.card .banner-img{
+    float: right;
+    height: 500px;
+    width: 300px;
+    object-fit:inherit;
+    border-radius: 2rem;
+    padding: 10px;
+}
+.left-con h1{
+    margin-bottom: 15px;
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    font-size: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card .left-con{
+    justify-content: center;
+    padding: 5rem;
+    max-width: 500px;
+    line-height: 1.5rem;
+   
+}
+.left-con ul{
+    margin-top: 15px;
+}
+.left-con ul li img{
+    width: 12px;
+}
+.left-con ul img{
+    margin-right: 10px;
+}
+
+.card form{
+   margin-top: 10px;
+}
+.card form label{
+    font-weight: 800;
+    font-size: 10px;
+    color: black;
+}
+.email-erro{
+    display: flex;
+    justify-content: space-between;
+}
+ form .email-erro .invalid{
+    color: hsl(4, 100%, 67%);
+    
+}
+.card form input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+ ::placeholder{
+   padding: 20px;
+    color: grey;
+}
+form button{
+    background-color:hsl(234, 29%, 20%);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+form button:hover{
+    background: linear-gradient(127deg, rgba(255,63, 124, 1) 40%, rgba(255, 154, 34, 1) 70%);
+}
+form button:active{background-color:hsl(4, 100%, 67%);}
+
+.card2{
+    margin-top: 150px;
+    max-width: 350px;
+    margin-inline: auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+    
+    
+}
+.card2 .card2-img{
+    width: 40px;
+    margin-bottom: 20px;
+}
+.card2 h1{
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hide{
+    display: none;
+}
+.card2 p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-size: 12px;
+
+}
+.card2 button{
+    background: linear-gradient(127deg, rgba(255,63, 124, 1) 40%, rgba(255, 154, 34, 1) 70%);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+.card2 button:active{
+    
+}
+.card2 strong{
+    color: black;
+}
+.attribution { font-size: 11px; text-align: center;
+    margin-top: 30px;
+
+}
+    .attribution a { color: hsl(228, 45%, 44%); }
